@@ -1,11 +1,15 @@
 import React from 'react';
+import './App.css';
+import Routes from './Route.js';
 
 
 function App() {
+	
+
   return (
-    <div>
-    hello wordld
-         </div>
+	<div>
+		<Routes />
+	</div>
   );
 }
 
